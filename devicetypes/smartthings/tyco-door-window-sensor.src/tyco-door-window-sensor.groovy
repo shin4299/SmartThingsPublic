@@ -30,7 +30,7 @@
 import groovy.json.JsonSlurper
 
 metadata {
-	definition ("Tyco Door/Window Sensor", namespace: "smartthings", author: "SmartThings", "runLocally: true, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false, mnmn: "SmartThings", vid: "generic-contact") {
+	definition ("Tyco Door/Window Sensor", namespace: "smartthings", author: "SmartThings", runLocally: true, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false, mnmn: "SmartThings", vid: "generic-contact") {
         capability "Sensor"
         capability "Contact Sensor"
         capability "Battery"
